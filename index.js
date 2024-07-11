@@ -3,14 +3,14 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let rand = getRandom();
 let pass1 = "";
 let pass2 = "";
-const generateBtn = document.getElementById("generate-btn");
-let genBoxOne = document.getElementById("box-one");
-let genBoxTwo = document.getElementById("box-two");
+let generateBtn = document.getElementById("generate-btn");
 
 
 generateBtn.addEventListener("click", function generatePasswords() {
     pass1 = "";
     pass2 = "";
+    let genBoxOne = document.getElementById("box-one");
+    let genBoxTwo = document.getElementById("box-two");
     
     for (let i = 0; i < 16; i++) {
         rand = getRandom();
