@@ -3,10 +3,10 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let rand = getRandom();
 let pass1 = "";
 let pass2 = "";
+let generateBtn = document.getElementById("generate-btn");
 
 
-
-function generatePasswords() {
+generateBtn.addEventListener("click", function generatePasswords() {
     pass1 = "";
     pass2 = "";
     let genBoxOne = document.getElementById("box-one");
@@ -21,7 +21,7 @@ function generatePasswords() {
     
     genBoxOne.textContent = pass1;
     genBoxTwo.textContent = pass2;
-}
+});
 
 function getRandom() {
     return Math.floor(Math.random() * characters.length);
