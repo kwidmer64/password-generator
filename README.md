@@ -1,4 +1,4 @@
-# Generate a Password
+# [Generate a Password](https://kwidmer-password-generator.netlify.app/)
 A simple password generator I made while learning JavaScript on [scrimba.com](https://v2.scrimba.com/home).
 A design document was provided by Scrimba for this project.
 
